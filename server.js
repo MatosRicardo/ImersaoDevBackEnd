@@ -1,4 +1,6 @@
 import express from "express";
+import conectarAoBanco from "./src/config/dbConfig.js";
+const conexao = await conectarAoBanco(process.env.STRING_CONEXAO);
 
 const posts = [
   {
@@ -33,7 +35,6 @@ const posts = [
   },
 ];
 
-// Criando o servidor
 const app = express();
 app.use(express.json());
 
@@ -41,12 +42,17 @@ app.listen(3000, () => {
   console.log("Servidor escutando...");
 });
 
-//Criando uma rota, solicitando uma requisição e resposta
-app.get("/posts", (req, res) => {
+async function getTodosPosts() {
+  const db = conexao.db("imersao-instabytes");
+  const colecao = db.collection("posts");
+  return colecao.find().toArray();
+}
+
+app.get("/posts", async (req, res) => {
+  const posts = await getTodosPosts();
   res.status(200).json(posts);
 });
 
-// Criando função para chamar os ids
 function buscarPost(id) {
   return posts.findIndex((post) => {
     return post.id === Number(id);
