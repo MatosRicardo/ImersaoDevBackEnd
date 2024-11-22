@@ -7,6 +7,9 @@ Durante um curso da **Alura**, participei de um projeto focado no desenvolviment
 - **Node.js**:
   - Criação de um servidor back-end com Node.js para gerenciar requisições HTTP.
   - Desenvolvimento de rotas e APIs para comunicação entre front-end e back-end.
+
+- **Google Cloud**:
+  - Integração de recursos da **Google Cloud** para otimizar o armazenamento e o gerenciamento de dados, aproveitando os serviços da plataforma para escalabilidade e eficiência.
   
 - **Google Gemini**:
   - Uso do Google Gemini para otimizar e desvendar APIs, permitindo uma integração fluida entre os serviços da aplicação.
