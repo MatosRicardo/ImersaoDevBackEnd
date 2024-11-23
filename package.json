@@ -24,9 +24,10 @@
   },
   "contributors": [],
   "scripts": {
-    "dev": "node --watch --env-file=.env server.js",
+    "dev": "npx parcel --port 8000 index.html",
     "test": ""
   },
+<<<<<<< HEAD
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
     "cors": "^2.8.5",
@@ -34,5 +35,9 @@
     "express": "^4.21.1",
     "mongodb": "^6.10.0",
     "multer": "^1.4.5-lts.1"
+=======
+  "devDependencies": {
+    "parcel": "^2.12.0"
+>>>>>>> b897948fb7649d52af92b8b8f86721813ce525c8
   }
 }
