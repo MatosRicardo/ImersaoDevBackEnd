@@ -1,51 +1,26 @@
-# Alura - Imersão back-end
+# Projeto Back-end com Node.js, Google Gemini e MongoDB - Alura
 
-Este é o repositório do front-end do projeto.
+Durante um curso da **Alura**, participei de um projeto focado no desenvolvimento **Back-end**, onde usamos **Node.js**, **Google Gemini** e **MongoDB** para criar uma aplicação prática. O objetivo foi aprender como construir um servidor eficiente e manipular APIs com o Google Gemini, além de integrar um banco de dados NoSQL com o MongoDB para persistência de dados.
 
-**IMPORTANTE:** É necessário ter o [Node.js](https://nodejs.org/) instalado em seu computador antes de executar os comandos de instalação e execução do projeto. Versão recomendada: v20.x.x.
+## Tecnologias e Conceitos Abordados
 
-## PASSO 1: Baixe o código do projeto:
+- **Node.js**:
+  - Criação de um servidor back-end com Node.js para gerenciar requisições HTTP.
+  - Desenvolvimento de rotas e APIs para comunicação entre front-end e back-end.
+ 
+- **Google Cloud**:
+  - Integração de recursos da **Google Cloud** para otimizar o armazenamento e o gerenciamento de dados, aproveitando os serviços da plataforma para escalabilidade e eficiência.
+  
+- **Google Gemini**:
+  - Uso do Google Gemini para otimizar e desvendar APIs, permitindo uma integração fluida entre os serviços da aplicação.
+  
+- **MongoDB**:
+  - Integração com o banco de dados MongoDB para armazenar dados de forma escalável e flexível.
+  - Manipulação de dados, inserção, consulta e atualização de informações no banco.
 
-### Opção 1 - Clonando o repositório para o seu perfil no GitHub
+## Objetivo do Projeto
 
-> Para utilizar essa opção é necessário ter o [Git](https://git-scm.com/downloads) instalado e configurado em seu computador. Caso não esteja instalado ou você não tenha certeza, prossiga com a **opção 2** e baixe o .zip do projeto.
+O foco do projeto foi colocar em prática o desenvolvimento de back-end, aprendendo como criar um servidor robusto, consumir e criar APIs, e garantir que os dados fossem armazenados de forma eficiente no MongoDB. Também abordamos boas práticas para trabalhar com grandes volumes de dados e otimizar a performance de consultas.
 
-1. Faça o **fork** do projeto clicando no botão **Fork** na parte superior direita da página;
-2. Faça o **clone** do repositório para seu computador:
-  - Clique no botão **<> Code** e copie o endereço remoto do repositório;
-  - Abra o terminal, navegue até a pasta raiz onde deseja baixar o projeto e execute o comando `git clone <endereço remoto>`;
-  - Você pode acessar a pasta do projeto direto pelo Visual Studio Code, clicando em File > Open Folder e selecionando a pasta do projeto.
-
-### Opção 2 - Baixando um arquivo .zip
-
-1. clique no botão **<> Code** e, em seguida, no botão **Download ZIP**;
-2. uma pasta zipada será baixada para a pasta de downloads determinada pelo seu navegador;
-3. descompacte os arquivos clicando no ícone da pasta zipada e transfira os arquivos para a pasta de projetos de sua preferência.
-
-
-## PASSO 2: Instale o projeto:
-
-### Opção 1 - Utilizando o terminal do Visual Studio Code
-
-1. Abra a pasta do projeto no Visual Studio Code clicando em File > Open Folder e selecionando a pasta do projeto;
-2. Clique em Terminal > New Terminal no menu superior do Visual Studio Code. O terminal deve abrir já direcionando para a pasta correta do projeto;
-3. Execute o comando `npm install` e aguarde a finalização.
-
-### Opção 2 - Utilizando outros terminais
-
-1. Abra o terminal de sua preferência e navegue até a pasta do projeto, utilizando os comandos de navegação como `cd <pasta>`;
-2. Com o prompt apontando para a raiz da pasta do projeto, execute o comando `npm install` e aguarde a finalização.
-
-## PASSO 3: Execute o projeto para subir o servidor local:
-
-Acesse o terminal (do Visual Studio Code ou outro), certifique-se que esteja exibindo a pasta correta do projeto e execute o comando `npm run dev`. O terminal deverá retornar:
-
-```
-> dev
-> npx parcel --port 8000 index.html
-
-Server running at http://localhost:8000
-✨ Built in xxxms
-```
-
-O projeto estará disponível no endereço http://localhost:8000 e você poderá acessá-lo no navegador de sua preferência.
+---
+Feito com 💻 e inovação na Alura.
