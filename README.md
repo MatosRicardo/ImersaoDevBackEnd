@@ -21,6 +21,3 @@ Durante um curso da **Alura**, participei de um projeto focado no desenvolviment
 ## Objetivo do Projeto
 
 O foco do projeto foi colocar em prática o desenvolvimento de back-end, aprendendo como criar um servidor robusto, consumir e criar APIs, e garantir que os dados fossem armazenados de forma eficiente no MongoDB. Também abordamos boas práticas para trabalhar com grandes volumes de dados e otimizar a performance de consultas.
-
----
-Feito com 💻 e inovação na Alura.
